@@ -61,6 +61,14 @@
       "runtime": {
         "name": "Runtime"
       }
+    },
+    "switch": {
+      "chrg_mosfet": {
+        "name": "Charge MOSFET"
+      },
+      "dischrg_mosfet": {
+        "name": "Discharge MOSFET"
+      }
     }
   },
   "exceptions": {
@@ -81,6 +89,9 @@
     },
     "missing_unique_id": {
       "message": "Missing unique ID for device."
+    },
+    "mosfet_control_failed": {
+      "message": "Failed to control MOSFET: {error}"
     }
   },
   "options": {
@@ -99,5 +110,5 @@
         "title": "Connection options"
       }
     }
-  }  
+  }
 }
